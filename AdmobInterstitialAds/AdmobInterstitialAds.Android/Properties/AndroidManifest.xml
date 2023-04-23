@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.genisuf.admobinterstitialads">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
+	<application android:label="AdmobInterstitialAds.Android" android:theme="@style/MainTheme">
+		<meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true" />
+		<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-0000000000000000~0000000000" />
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
